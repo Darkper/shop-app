@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-import { SettingsService, TokenService, MenuService } from '@core';
+import {Component} from '@angular/core';
+import {Router} from '@angular/router';
+import {MenuService, SettingsService, TokenService} from '@core';
 
 @Component({
   selector: 'app-user',
@@ -11,8 +11,8 @@ import { SettingsService, TokenService, MenuService } from '@core';
       href="javascript:void(0)"
       [matMenuTriggerFor]="menu"
     >
-      <img class="matero-avatar" src="assets/images/avatar.jpg" width="32" alt="avatar" />
-      <span class="matero-username" fxHide.lt-sm>Zongbin</span>
+      <mat-icon>account_circle</mat-icon>
+      <span class="matero-username" fxHide.lt-sm>Darkper</span>
     </button>
 
     <mat-menu #menu="matMenu">

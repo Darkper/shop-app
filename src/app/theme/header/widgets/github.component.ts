@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-github-button',
@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     <a
       mat-icon-button
       class="matero-toolbar-button"
-      href="https://github.com/ng-matero/ng-matero"
+      href="https://github.com/Darkper/shop-app.git"
       target="_blank"
     >
       <svg viewBox="0 0 16 16" class="mat-icon">
