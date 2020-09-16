@@ -1,0 +1,43 @@
+{
+  "menu": {
+    "dashboard": "Dashboard",
+    "sessions": "Sesiones",
+    "sessions.403": "403",
+    "sessions.404": "404",
+    "sessions.500": "500"
+  },
+  "validations": {
+    "exist": "El {{value}} existe",
+    "inconsistent": "Inconsistente con {{value}}",
+    "invalid_email": "Email invalido",
+    "max": "Este valor debe ser menor que {{number}}",
+    "maxlength": "Este valor debe ser menor a {{number}} caracteres",
+    "min": "Este valor debe ser mayor que {{number}}",
+    "minlength": "Debería tener al menos {{number}} caracteres",
+    "required": "Este campo es requerido"
+  },
+  "user": {
+    "logout": "Cerrar sesión",
+    "profile": "Perfil",
+    "settings": "Ajustes"
+  },
+  "login": {
+    "create_one": "Haga clic aquí para crear una",
+    "have_no_account": "No tengo una cuenta",
+    "login": "Iniciar sesión",
+    "password": "Contraseña",
+    "please_enter": "Por favor escribe",
+    "remember_me": "Recuérdame",
+    "title": "Bienvenido de nuevo",
+    "username": "Nombre de usuario"
+  },
+  "register": {
+    "agree": "He leído y acepto los términos de servicio.",
+    "confirm_password": "Confirmar contraseña",
+    "have_an_account": "Ya tienes una cuenta",
+    "register": "Crear una cuenta",
+    "signin": "Registrarse",
+    "title": "Solo toma unos segundos crear su cuenta",
+    "welcome": "Bienvenidos"
+  }
+}

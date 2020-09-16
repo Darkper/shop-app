@@ -20,16 +20,15 @@ import { SettingsService } from '@core';
 export class TranslateComponent {
   langs = {
     'en-US': 'English',
-    'zh-CN': '中文简体',
-    'zh-TW': '中文繁体',
+    'es': 'Español',
   };
 
   constructor(private translate: TranslateService, private settings: SettingsService) {
-    translate.addLangs(['en-US', 'zh-CN', 'zh-TW']);
+    translate.addLangs(['en-US', 'es']);
     translate.setDefaultLang('en-US');
 
     const browserLang = navigator.language;
-    translate.use(browserLang.match(/en-US|zh-CN|zh-TW/) ? browserLang : 'en-US');
+    translate.use(browserLang.match(/en-US|es/) ? browserLang : 'en-US');
   }
 
   useLanguage(language: string) {
